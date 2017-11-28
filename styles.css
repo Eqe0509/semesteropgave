@@ -1,0 +1,131 @@
+.container {
+	max-width: 100%;
+	padding: 100px;
+  overflow: hidden;
+  border: orange 5px solid;
+  
+}
+
+h1 {
+	border-bottom: 3px solid;
+	margin-bottom: 30px;
+}
+
+article {
+	border-bottom: 3px dashed #ddd;
+	padding-bottom: 20px;
+}
+
+article:last-child {
+	border-bottom: none;
+}
+
+img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+p.byline {
+	color: #999;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+body {
+  text-align : center ; 
+  background-color: #d3d3d3;
+  
+  
+}
+
+li {
+	float : right ;
+	margin : 20px ; 
+	display : inline ; 
+	
+}
+
+#menu {
+  margin: 100px;
+  
+}
+/*søger efter artikler*/
+#search {
+  width : 30%;
+  height : 20px ;
+  margin: 0px 0px 20px 0px;
+  background-color: grey;
+  padding: 10px;
+  border: solid 3px orange;
+  color: white;
+  
+  
+  
+}
+/*søgeknap til artikler*/
+/*#searchButton{
+   background-color: grey;
+   padding: 10px;
+   border: solid 3px orange;
+  color: white;
+   */
+}
+
+
+.søgeknap:hover, .søgeknap:focus {
+  background-color : orange;
+}
+
+
+.dropbtn {
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: solid 3px orange;
+  
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: orange;
+}
+
+.dropdown {
+    position: relative;
+    float: right ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+  
+}
+
+.show {display:block;}
+
+#headdrop{
+  margin: 50px;
+  
+}
+#billede{
+  
+  background-size: cover;
+}
